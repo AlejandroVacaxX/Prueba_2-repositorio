@@ -1,2 +1,2 @@
 #aqui ignoraremos el archivo debug.log
-debug.log
+*.log
