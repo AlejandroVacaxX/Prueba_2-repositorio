@@ -47,3 +47,10 @@ ya se encuentrar en el 'repositorio remoto'
 
 'NOTA: en ALIAS regularmente usamos la palabra origin
        y NOMBRE-RAMA utilizamos master'
+
+## Notas sobre el archivo .gitignore:
+La creacion de este archivo se hizo con el siguiente comando
+'touch .gitignore', dentro del archivo desde Visual Studio Code escribiremos los archivos que no queremos en el repositorio
+en este ejercicio el archivo 'debug.log' no debe llegar al repositorio remoto
+al poner en consola el comando 'git status' el archivo 'debug.log' debe aparecer en el apartado llamado 
+"Untracked files".
