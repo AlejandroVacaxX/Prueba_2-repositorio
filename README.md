@@ -31,7 +31,7 @@ al utilizar el TOKEN desde HTTP y resulto mas facil usarlo via SSH.
 3. `TOUCH .gitignore`: Con esto creamos el archivo donde pondremos el nombre de todos los archivos que queremos
 se ignoren y no sean enviados al repositorio, la sintaxis para ignorar archivos es bastante sencilla:
 
-4.  - `*.log` si queremos ignorar todo archivo que termine asi
+4. `*.log` si queremos ignorar todo archivo que termine asi
 `/nombrearchivo.log` si solo queremos ignorar ese archivo
 `nombrearchivo.log` si queremos ignorar todo archivo con ese nombre
 
@@ -46,8 +46,8 @@ nuestros archivos, si esta en rojo aun no esta dentro del stagin area
 con el color verde estara en el __local repo__ y si nuestra rama aparece vacia nuestros archivos
 ya se encuentrar en el __repositorio remoto__
 
-NOTA: en _ALIAS_ regularmente usamos la palabra __origin__
-       y _NOMBRE-RAMA_ utilizamos __master__
+NOTA: en __ALIAS__ regularmente usamos la palabra __origin__
+       y __NOMBRE-RAMA__  utilizamos __master__
 
 ## Notas sobre el archivo ***.gitignore***:
 
